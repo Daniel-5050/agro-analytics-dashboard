@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchMarketPrices } from '../services/marketApi';
-import { toast } from 'react-toastify';
+
 
 const MarketPage = () => {
   const [marketPrices, setMarketPrices] = useState([]);

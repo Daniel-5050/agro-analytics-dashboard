@@ -1,0 +1,19 @@
+.Toastify__toast {
+  border-radius: 12px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #2d6a4f, #40916c);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #d00000, #dc2f02);
+  color: white;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #52b788, #2d6a4f);
+  color: white;
+}

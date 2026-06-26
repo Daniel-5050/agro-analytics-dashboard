@@ -1,0 +1,85 @@
+.charts-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.charts-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #081c15;
+  text-align: center;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: all 0.4s ease;
+  min-height: 420px;
+}
+
+.chart-card:hover {
+  transform: translateY(-6px);
+}
+
+.chart-card h5 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1b4332;
+  font-weight: 700;
+}
+
+/* Chart canvas sizing */
+.chart-card canvas {
+  max-height: 320px !important;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .chart-card {
+    min-height: auto;
+  }
+
+  .charts-title {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .charts-section {
+    margin-top: 35px;
+  }
+
+  .chart-card {
+    padding: 18px;
+  }
+
+  .charts-title {
+    font-size: 1.5rem;
+  }
+
+  .chart-card h5 {
+    font-size: 1rem;
+  }
+
+  .chart-card canvas {
+    max-height: 250px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .chart-card {
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .charts-title {
+    font-size: 1.3rem;
+  }
+
+  .chart-card canvas {
+    max-height: 220px !important;
+  }
+}
